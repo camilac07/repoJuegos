@@ -117,7 +117,7 @@ void MainGame::initLevel() {
 		humans.push_back(new Human());
 		glm::vec2 pos(randPosX(randomEngie) * TILE_WIDTH,
 			randPosY(randomEngie) * TILE_WIDTH);
-		humans.back()->init(1.0f, pos);
+		humans.back()->init(1.5f, pos);
 	}
 
 	for (int i = 0; i < levels[currentLevel]->getNumZombies(); i++)
